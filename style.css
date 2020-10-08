@@ -176,13 +176,13 @@ body {
     margin-bottom: 30px;
 }
 .data__input {
-    width: 230px;
+    width: 250px;
     border: 1px solid #efefef;
     padding: 9px;
     margin-bottom: 25px;
 }
 .data__input:last-child {
-    margin-left: 50px;
+    margin-left: 35px;
 }
 .data__input:focus-within {
     border-left-color: #3597fc;

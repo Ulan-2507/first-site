@@ -228,6 +228,10 @@ body {
 .rbnts__item:hover .info__text{
     opacity: 1;
 }
+.rbnts__item:nth-child(3) .tooltip__text,  
+.rbnts__item:nth-child(4) .tooltip__text {
+    left: -250px;
+}
 .radio {
     padding-left: 2em;
     
@@ -392,10 +396,7 @@ body {
         padding: 8px;
         left: -80px;
     }
-    .rbnts__item:nth-child(3) .tooltip__text,  
-    .rbnts__item:nth-child(4) .tooltip__text {
-        left: -250px;
-    }
+ 
     .terms {
         margin-bottom: 20px;
         line-height: 2em;

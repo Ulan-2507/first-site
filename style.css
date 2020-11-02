@@ -394,13 +394,13 @@ body {
 
 @media only screen and (max-width:1000px){
     .container {
-        width: 760px;
+        width: 100%;
+        max-width: 760px;
     }
 }
 
 @media only screen and (max-width:762px){
     .container {
-        width: 100%;
         margin: 50px auto;
     }
 

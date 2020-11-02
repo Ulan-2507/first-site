@@ -42,166 +42,129 @@
     </svg>
     <!-- Container -->
     <div class="container">
-        <!-- header -->
-        <Header class="header">
-            <svg class="header__logo">
-                <use xlink:href="#logo"></use>
-            </svg>
-        </Header>
+        <div class="logo"></div>
 
-        <!-- intro -->
-        <div class="intro">
-            <div class="intro__img">
-                <img src="img/bg.jpg" alt="">
-            </div>
-            <!-- intro__inner -->
-            <div class="intro__inner">
-                <div class="content">
-                    <section class="content__header">
-                        <h1 class="content__title">Get iintoo it today</h1>
-                        <p class="content__subtitle">There is no charge or obligation upon registration.</p>
-                    </section>
+        <!-- Wrapper -->
+        <div class="wrapper">
+            <div class="wrapper__inner">
+                <h1 class="title">Get iintoo it today</h1>
+                <p class="subtitle">There is no charge or obligation upon registration</p>
+
+                <div class="fast-registration">
+                    <button class="btn fb">
+                        <span class="btn__icon">
+                            <svg class="icon">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </span>
+                        Register with Facebook 
+                    </button>
+
+                    <button class="btn in">
+                        <span class="btn__icon">
+                            <svg class="icon">
+                                <use xlink:href="#linkedin"></use>
+                            </svg>
+                        </span>
+                        Register with LinkedIn
+                    </button>
+                </div>
+
+                <!--  Line  -->
+                <div class="line">
+                    <div class="line__text">OR</div>
+                </div>
+
+                <!-- Registration -->
+                <form class="registration" action="#" method="POST">
+                    <label class="input-data">
+                        Email
+                        <input  type="email" name="email" placeholder="gus.goodwin@gmail.com" required>
+                    </label>
+
+                    <label class="input-data">
+                        Phone
+                        <input  type="tel" name="tel" required>
+                    </label>
                     
-                    <!-- Registration -->
-                    <section class="registration">
-                        <!--registration__buttons-->
-                        <div class="registration__buttons">
-                            <a class="btn" href="#" > 
-                                <span class="btn__icon">
-                                    <svg class="icon">
-                                        <use xlink:href="#facebook"></use>
+                    <div class="investor">
+                        <h2>What type of investor are you?</h2>
+                        <p>Select the type of investor you are below</p>
+                    </div>
+
+                    <ul class="rbnts">
+                        <li class="rbnts__item">
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="investor" required>
+                                <span class="radio__box"></span>
+                                Individual
+                                <span class="tooltip">
+                                    <svg class="tooltip__icon">
+                                        <use xlink:href="#info"></use>
                                     </svg>
-                                </span>
-                                Register with Facebook 
-                            </a>
 
-                            <a class="btn btn--in" href="#"> 
-                                <span class="btn__icon">
-                                    <svg class="icon">
-                                        <use xlink:href="#linkedin"></use>
+                                    <span class="tooltip__text">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common
+                                    </span>
+                                </span>
+                            </label>
+                        </li>
+                        <li class="rbnts__item">
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="investor">
+                                <span class="radio__box"></span>
+                                Business
+                                <span class="tooltip">
+                                    <svg class="tooltip__icon">
+                                        <use xlink:href="#info"></use>
                                     </svg>
+
+                                    <span class="tooltip__text">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common
+                                    </span>
                                 </span>
-                                Register with Linkedin 
-                            </a>
-                        </div><!--/.registration__buttons-->
-
-                        <!--  Line  -->
-                        <div class="line">
-                            <hr/>
-                            <div class="line__text">OR</div>
-                        </div>
-
-                        <!-- data -->
-                        <div class="data">
-                            <div class="data__input">
-                                <p class="data__text">Email</p>
-                                <input class="input" type="email" placeholder="gus.goodwin@gmail.com">
-                            </div>
-    
-                            <div class="data__input">
-                                <p class="data__text">Phone</p>
-                                <input class="input" type="tel">
-                            </div>
-                        </div>
-                    </section><!-- /.Registration -->
-                    <!-- Investor -->
-                    <section class="investor">
-                        <h2 class="investor__title">What type of investor are you?</h2>
-                        <p class="investor__subtitle">Select the type of investor you are below</p>
-
-                        <div class="rbtns">
-                            <div class="rbnts__item">
-                                <label class="radio">
-                                    <input class="radio__input" type="radio" name="investor">
-                                    <span class="radio__box"></span>
-                                    Individual
-                                    
-                                    <span class="tooltip">
-                                        <svg class="tooltip__icon">
-                                            <use xlink:href="#info"></use>
-                                        </svg>
-
-                                        <span class="tooltip__text">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common
-                                        </span>
+                            </label>
+                        </li>
+                        <li class="rbnts__item">
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="investor">
+                                <span class="radio__box"></span>
+                                IRA
+                                <span class="tooltip">
+                                    <svg class="tooltip__icon">
+                                        <use xlink:href="#info"></use>
+                                    </svg>
+                                    <span class="tooltip__text">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common
                                     </span>
-                                    
-                                </label>
-                            </div>
-
-                            <div class="rbnts__item">
-                                <label class="radio">
-                                    <input class="radio__input" type="radio" name="investor">
-                                    <span class="radio__box"></span>
-                                    Business
-                                    
-                                    <span class="tooltip">
-                                        <svg class="tooltip__icon">
-                                            <use xlink:href="#info"></use>
-                                        </svg>
-
-                                        <span class="tooltip__text">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common
-                                        </span>
+                                </span>
+                            </label>
+                        </li>
+                        <li class="rbnts__item">
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="investor">
+                                <span class="radio__box"></span>
+                                Trust
+                                <span class="tooltip">
+                                    <svg class="tooltip__icon">
+                                        <use xlink:href="#info"></use>
+                                    </svg>
+                                    <span class="tooltip__text">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common
                                     </span>
-                                    
-                                </label>
-                            </div>
+                                </span>   
+                            </label>
+                        </li>
+                    </ul>
 
-                            <div class="rbnts__item">
-                                <label class="radio">
-                                    <input class="radio__input" type="radio" name="investor">
-                                    <span class="radio__box"></span>
-                                    IRA
-                                    
-                                    <span class="tooltip">
-                                        <svg class="tooltip__icon">
-                                            <use xlink:href="#info"></use>
-                                        </svg>
-
-                                        <span class="tooltip__text">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common
-                                        </span>
-                                    </span>
-                                    
-                                </label>
-                            </div>
-
-                            <div class="rbnts__item">
-                                <label class="radio">
-                                    <input class="radio__input" type="radio" name="investor">
-                                    <span class="radio__box"></span>
-                                    Trust
-                                    
-                                    <span class="tooltip">
-                                        <svg class="tooltip__icon">
-                                            <use xlink:href="#info"></use>
-                                        </svg>
-
-                                        <span class="tooltip__text">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common
-                                        </span>
-                                    </span>
-                                    
-                                </label>
-                            </div>
-   
-                        </div><!--/.radio__buttons-->
-                    </section><!--investor-->
-                    <!-- Terms -->
                     <div class="terms">
                         <label>
-                            <input class="checkbox" type="checkbox">
+                            <input class="checkbox" type="checkbox" required>
                                 I agree to the terms and receving notifications from iintoo 
                                 <a class="terms__link" href="#">View full terms</a>
                         </label>
-                    </div><!-- /.terms -->
-                    <!-- Create button -->
-                    <button class="button" type="submit">Create Account</button>
+                    </div>
 
-                </div><!--content-->
-            </div><!-- /.intro__inner -->
-        </div><!-- /.intro -->
+                    <input class="btn create-btn" type="submit" value="Create Account">   
+                </form>
+            </div><!--/.wrapper__inner--> 
+        </div><!-- /.wrapper --> 
     </div><!-- /.container -->
-
-    
-    
-    
 </body>
 </html>

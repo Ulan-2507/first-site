@@ -232,6 +232,7 @@ body {
 .investor > h2 {
     margin-bottom: 16px;
     font-size: 20px;
+    font-weight: 600;
     letter-spacing: .4px; 
     color: #44606e;
 }

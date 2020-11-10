@@ -129,7 +129,7 @@ body {
 }
 
 .btn:focus {
-    box-shadow: 0 0 2px 1px  red;
+    box-shadow: 0 0 0px 1px  red;
 }
 
 .btn:active {
@@ -156,7 +156,7 @@ body {
     margin-right: 10px;
     margin-left: 5px;
 }
-.btn__icon {
+.btn > span {
     margin-right: 15px;
 }
 
@@ -168,10 +168,8 @@ body {
     background-color: #3698fb;
 }
 
-.icon {
+.btn__icon {
     vertical-align: middle;
-    width: 18px;
-    height: 22px;
     fill: #fff;
 }
 
@@ -254,7 +252,7 @@ body {
     margin-right: 0;
 }
 
-.rbnts__item:hover .info__text{
+.rbnts__item:hover .info__text {
     opacity: 1;
 }
 
@@ -288,8 +286,9 @@ body {
 }
 
 .radio__input:focus + .radio__box {
-    box-shadow: 0 0 2px 1px red;
+    box-shadow: 0 0 0 1px red;
 }
+
 
 /* Info */
 .tooltip {
@@ -303,8 +302,6 @@ body {
 }
 
 .tooltip__icon {
-    width: 0.6em;
-    height: 0.6em;
     fill: #8ba1af;
 }
 
@@ -351,7 +348,7 @@ body {
 }
 
 .checkbox:focus {
-    box-shadow: 0 0 2px 1px  red;
+    box-shadow: 0 0 0 1px  red;
 }
 
 /* Media */

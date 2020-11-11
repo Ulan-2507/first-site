@@ -268,9 +268,10 @@ body {
 
 .radio__input {
     position: absolute;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: circle(0);
 }
 .radio__box {
     position: absolute;
